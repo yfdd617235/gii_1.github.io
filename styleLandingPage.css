@@ -2,8 +2,8 @@
 #navbar{
     position: fixed;
     top: 0; 
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #131921;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -96,11 +96,11 @@ body{
 }
 
 #prefooter{
-    color: white;
+    color: black;
     margin-top: 1%;
     margin-bottom: 0;
     font-size: smaller;
-    /* border: solid; */
+    /*border: solid;*/
     /* background: linear-gradient(to top, #00261ca6, black); */
     background-image: linear-gradient(rgba(248, 248, 252, 0.957), rgba(255, 255, 255, 0.963)), url('banner.webp.jpg');
     background-size: cover;
@@ -132,11 +132,21 @@ body{
     padding-bottom: 5%;
 }
 
-footer, hr{
-    padding-top: 1px;
-    text-align: center;
+
+footer {
+   /* border: solid orange;*/
+    display: flex;           /* Utiliza flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    padding-top: 0.5%;
+    color: white;
+    background-color: #131921;
+}
+
+footer p{
     color: white;
 }
+
 
 @media (max-width: 768px) {
     #data, footer {
