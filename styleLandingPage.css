@@ -15,7 +15,7 @@
 }
 
 #cname:hover{
-    color: rgb(0, 0, 159);
+    color: rgb(183, 202, 253);
     
 }
 
@@ -32,10 +32,9 @@ body{
 
 
 #jumbotron {
-    margin-bottom: 0;
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(rgba(248, 248, 252, 0.957), rgba(255, 255, 255, 0.963)), url('banner.webp.jpg');
+    background-image: linear-gradient(rgba(183, 202, 253, 0.842), rgb(255, 255, 255)), url('banner.webp2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -44,6 +43,7 @@ body{
     justify-content: flex-end;
     padding: 5%;
     padding-left: 10%;
+    /*border: solid;*/
 }
 
 #jumbotron h3, p{
@@ -58,11 +58,11 @@ body{
 }
 
 #data{
-    margin-top: 1%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    /* border: solid white; */
+    /* border: solid red; */
 }
 
 .card-text{
@@ -102,7 +102,7 @@ body{
     font-size: smaller;
     /*border: solid;*/
     /* background: linear-gradient(to top, #00261ca6, black); */
-    background-image: linear-gradient(rgba(248, 248, 252, 0.957), rgba(255, 255, 255, 0.963)), url('banner.webp.jpg');
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(183, 202, 253, 0.842)), url('banner.webp2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -112,6 +112,7 @@ body{
 
 #logoT{
     height: 300px;
+    filter: invert(100%); /* Invert the color of the png image*/
 }
 
 /* #logoT:hover{
