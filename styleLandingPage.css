@@ -68,7 +68,7 @@ body{
 .card-text{
     font-size:small;
     color: black;
-
+    text-align: left;
     /* border: solid white; */
 }
 
