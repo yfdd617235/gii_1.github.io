@@ -32,24 +32,24 @@ body{
 
 
 #jumbotron {
-    height: 700px;
+    height: 100vh; /*100vh; para que ocupe toda la altura de la pantalla*/
     width: 100%;
-    background-image: linear-gradient(rgba(183, 202, 253, 0.842), rgb(255, 255, 255)), url('banner.webp2.jpg');
+    background-image: linear-gradient(rgba(183, 202, 253, 0.842), rgba(255, 255, 255)), url('banner.webp2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
-    padding-left: 10%;
-    /*border: solid;*/
+    /* border: solid; */
 }
 
 #logoJ {
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-    max-height: 100%; /* Asegura que la imagen no se salga del jumbotron */
+    max-width: 100%; /*Asegura que la imagen no se salga del jumbotron */
+    max-height: 100%; /*Asegura que la imagen no se salga del jumbotron */
     filter: invert(100%); /* Invert the color of the png image */
+    /* border: solid; */
 }
 
 /*#jumbotron h3, p{
