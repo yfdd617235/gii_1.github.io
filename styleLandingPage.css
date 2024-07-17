@@ -48,8 +48,9 @@ body{
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
     max-width: 100%; /*Asegura que la imagen no se salga del jumbotron */
     max-height: 100%; /*Asegura que la imagen no se salga del jumbotron */
-    filter: invert(100%); /* Invert the color of the png image */
-    /* border: solid; */
+    /*filter: invert(100%);  Invert the color of the png image */
+    /* border: solid;  */
+    padding-top: 5%;
 }
 
 /*#jumbotron h3, p{
@@ -117,8 +118,9 @@ body{
 }
 
 #logoT{
-    height: 300px;
-    filter: invert(100%); /* Invert the color of the png image*/
+    height: 200px;
+   /* filter: invert(100%);  Invert the color of the png image*/
+   /* border: solid orange; */
 }
 
 /* #logoT:hover{
@@ -126,9 +128,10 @@ body{
 } */
 
 #colImg{
-    /* border: solid white; */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
 }
 
 #col2, #col3{
@@ -137,6 +140,7 @@ body{
     min-width: 279px;
     padding-top: 5%;
     padding-bottom: 5%;
+    
 }
 
 
